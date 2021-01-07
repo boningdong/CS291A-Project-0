@@ -1,0 +1,80 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+p {
+    font-size: 1.4rem;
+    color: rgb(57, 57, 57);
+}
+
+ul {
+    font-size: 1.2rem;
+    color: rgb(85, 85, 85);
+}
+
+#kbd-img-container {
+    display: flex;
+}
+
+#title {
+    text-align: center;
+    color: purple;
+}
+
+.kbd-img {
+    border-radius: 0.5rem;
+    box-shadow: 5px 1px 14px -1px #C7C7C7;
+    width: 47.5%;
+    margin: auto;
+}
+
+#material-section {
+    margin-top: 2rem;
+}
+
+#material-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 2rem;
+    width: 96%;
+}
+
+#material-table tr, #material-table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 30px 10px 30px;
+}
+
+#project-button {
+    border-style: none;
+	box-shadow: 0px 10px 14px -7px #532773;
+	background:linear-gradient(to bottom, #a059b3 5%, #321561 100%);
+	background-color:#594171;
+	border-radius:10px;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3b054a;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#project-button a {
+    color: white;
+    text-decoration: none;
+}
+
+#project-button:hover {
+	background:linear-gradient(to bottom, #9868ac 5%, #a46db6 100%);
+	background-color:#594171;
+}
+#project-button:active {
+	position:relative;
+	top:1px;
+}
